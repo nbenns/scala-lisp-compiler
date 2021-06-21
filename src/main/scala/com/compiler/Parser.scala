@@ -1,7 +1,7 @@
 package com.compiler
-import com.compiler.Token
-import com.compiler.Token.*
 import com.compiler.AST
+import com.compiler.Lisp.Token
+import Token.*
 
 object Parser {
   def buildProgram(tokens: List[Token]): AST = {
